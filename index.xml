@@ -5,10 +5,29 @@
     <link>https://GlaukosW.github.io/</link>
     <description>Recent content on SPARKS.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 Feb 2020 13:24:25 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2020 14:32:39 +0800</lastBuildDate>
     
 	<atom:link href="https://GlaukosW.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ubuntu装机碎碎念</title>
+      <link>https://GlaukosW.github.io/post/ubuntu_install/</link>
+      <pubDate>Sat, 15 Feb 2020 14:32:39 +0800</pubDate>
+      
+      <guid>https://GlaukosW.github.io/post/ubuntu_install/</guid>
+      <description>为什么是Ubuntu？ 下学期OS还是要用linux系统，用腻了debian之后还是决定用ubuntu了（毕竟后面的oj的运行环境也是Ubuntu）。正好花了血本买了新的笔记本电脑。不是mbp（买不起），所以决定来搞一下真机。
+（不是太顺利的）过程  在网上找了一个非常详细的教程，一开始的时候信心满满地用了自己8G的U盘准备装机，BIOS似乎也调好了，但是准备正式开始装机的时候显示装机至少需要8.6G的空间，但是当前只有8G的空间？？？草（一种植物）。专门在京东上买了一个32G的U盘来重新装。气fufu。 以下所有出现的问题（可能）多多少少都和个人的机器有关。我自己的机器现在是联想拯救者Y9000x，15寸4k屏是很爽但是bug也蛮多（瘫）。  无法读取硬盘的问题   好不容易进入装机了。发现在安装时ubuntu无法读取硬盘（分了60G的空间白分了嘤）。上网去找原因。发现要在BIOS里面将SATA controller mode转为AHCI模式。然后转呗。转了之后发现windows竟然打不开了！Σ(っ °Д °;)っ刚入的机子就要被我搞坏了？？？STFW！
+果然遇到真正的问题还是要靠国际知识，在askubuntu网站里面找到了相对比较完善的解决方法。
+ 首先在windows下进入安全模式。进入windows power shell Admin 输入bcdedit /set safebootminimal。 然后再进入BIOS将SATA controller mode设置为AHCI。secure boot disable等等。 再重新进入windows，退出安全模式。在Windows power shell Admin中输入bcdedit /deletevalue safeboot。 重启之后就可以正常进入windows啦。    在windows里面为ubuntu分配空间的时候，要将磁盘设置为空白卷，这样在ubuntu中设置空间的时候才能识别为空闲空间。感觉60G的空间对于16G内存的配置有点不够用hhhhhh。
+  后面就是安装啦。但是安装之后会发现无法连接无线网，需要下载相应的WIFI adapter。但是我没有把网线转换头带回来！！！！！淦。后面的只能等开学之后搞到转换头连上网线才能搞了。。。
+  碎碎念：什么时候开学啊！！！
+  above edit by 2020.02.05
+没有相应的无线适配器的问题。   然后江苏省政府要求二月底之前不开学（不——要——啊——），在京东又下单了一个转接头（绿联的，168rmb，肉痛。）终于连上了有线网。一般来说步骤是这样的：
+ 联网之后更换软件源（换成清华或者阿里云之类的，在国内下载速度会快一点）。 更新之后查看可用的驱动，理论上来说会自动搜索到机器适用的驱动然后安装就行了。    BUT！机器总是各有各的个性，即使连上了有线网但还是无法搜索到相应的驱动，不管换成什么源都没有变化。那肯定就不是驱动没有安装的问题了。最后在csdn上找到了解决的办法（面向CSDN学习）。实际上是无限硬件开关默认是关闭的，所以无法搜索到无线网。
+  首先查看无线硬件的状态：
+rfkill list all 会出现如下的提示：</description>
+    </item>
     
     <item>
       <title>Daily</title>
@@ -16,7 +35,8 @@
       <pubDate>Sat, 15 Feb 2020 13:24:25 +0800</pubDate>
       
       <guid>https://GlaukosW.github.io/post/daily_record/</guid>
-      <description>今天也是瘫着的一天！ 2020-02-15 从13号开始尝试搭blog。在Ubuntu上面试了一下好像因为版本不对所以不太搞得定。然后转到Windows上面又搞了两天。今天算刚刚开始（瘫）。</description>
+      <description>今天也是瘫着的一天！
+2020-02-15 从13号开始尝试搭blog。在Ubuntu上面试了一下好像因为版本不对所以不太搞得定。然后转到Windows上面又搞了两天。今天算刚刚开始（瘫）。捣鼓了好多主题最后还是觉得Hyde最好看（而且因为没什么功能所以配置也很简单），还是用了hyde。什么时候需求超出功能的时候再说啦。</description>
     </item>
     
     <item>
@@ -36,7 +56,8 @@
       <guid>https://GlaukosW.github.io/about/</guid>
       <description>这里是？ 用来放wzj同学的碎碎念的网站。
 有什么？ 谁知道呢？反正才开始写。
-欢迎扩列 via GitHub~</description>
+欢迎扩列 via GitHub~
+主题 Hyde。兜兜转转还是觉得最简单的最好看。</description>
     </item>
     
   </channel>

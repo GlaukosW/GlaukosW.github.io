@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.64.1" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ubuntu装机碎碎念 &middot; SPARKS.</title>
+  <meta name="description" content="换了电脑之后决定装Ubuntu啦！" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://GlaukosW.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://GlaukosW.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://GlaukosW.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://GlaukosW.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://GlaukosW.github.io/"><h1>SPARKS.</h1></a>
+      <p class="lead">
+       There is always something worth writing down. 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://GlaukosW.github.io/">Home</a> </li>
+        <li><a href="https://GlaukosW.github.io/about/"> About </a></li><li><a href="https://github.com/GlaukosW/"> Github </a></li><li><a href="https://GlaukosW.github.io/post/something_unimportant/"> 😉 </a></li>
+      </ul>
+    </nav>
+
+    <p>Copyright (c) 2020, Jenny W.</p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Ubuntu装机碎碎念</h1>
+  <time datetime=2020-02-15T14:32:39&#43;0800 class="post-date">Sat, Feb 15, 2020</time>
+  <h2 id="为什么是ubuntu">为什么是Ubuntu？</h2>
+<p>下学期OS还是要用linux系统，用腻了debian之后还是决定用ubuntu了（毕竟后面的oj的运行环境也是Ubuntu）。正好花了血本买了新的笔记本电脑。不是mbp（买不起），所以决定来搞一下真机。</p>
+<h2 id="不是太顺利的过程">（不是太顺利的）过程</h2>
+<ul>
+<li>在网上找了一个非常详细的教程，一开始的时候信心满满地用了自己8G的U盘准备装机，BIOS似乎也调好了，但是准备正式开始装机的时候显示装机至少需要8.6G的空间，但是当前只有8G的空间？？？草（一种植物）。专门在京东上买了一个32G的U盘来重新装。气fufu。</li>
+<li>以下所有出现的问题（可能）多多少少都和个人的机器有关。我自己的机器现在是联想拯救者Y9000x，15寸4k屏是很爽但是bug也蛮多（瘫）。</li>
+</ul>
+<h3 id="无法读取硬盘的问题">无法读取硬盘的问题</h3>
+<ul>
+<li>
+<p>好不容易进入装机了。发现在安装时ubuntu无法读取硬盘（分了60G的空间白分了嘤）。上网去找原因。发现要在BIOS里面将SATA controller mode转为AHCI模式。然后转呗。转了之后发现windows竟然打不开了！Σ(っ °Д °;)っ刚入的机子就要被我搞坏了？？？STFW！</p>
+<p>果然遇到真正的问题还是要靠国际知识，在askubuntu网站里面找到了相对比较完善的解决方法。</p>
+<ul>
+<li>首先在windows下进入安全模式。进入windows power shell Admin 输入<code>bcdedit /set safebootminimal</code>。</li>
+<li>然后再进入BIOS将SATA controller mode设置为AHCI。secure boot disable等等。</li>
+<li>再重新进入windows，退出安全模式。在Windows power shell Admin中输入<code>bcdedit /deletevalue safeboot</code>。</li>
+<li>重启之后就可以正常进入windows啦。</li>
+</ul>
+</li>
+<li>
+<p>在windows里面为ubuntu分配空间的时候，要将磁盘设置为空白卷，这样在ubuntu中设置空间的时候才能识别为空闲空间。感觉60G的空间对于16G内存的配置有点不够用hhhhhh。</p>
+</li>
+<li>
+<p>后面就是安装啦。但是安装之后会发现无法连接无线网，需要下载相应的WIFI adapter。但是我没有把网线转换头带回来！！！！！淦。后面的只能等开学之后搞到转换头连上网线才能搞了。。。</p>
+</li>
+<li>
+<p>碎碎念：什么时候开学啊！！！</p>
+</li>
+</ul>
+<p><em>above edit by 2020.02.05</em></p>
+<h3 id="没有相应的无线适配器的问题">没有相应的无线适配器的问题。</h3>
+<ul>
+<li>
+<p>然后江苏省政府要求二月底之前不开学（不——要——啊——），在京东又下单了一个转接头（绿联的，168rmb，肉痛。）终于连上了有线网。一般来说步骤是这样的：</p>
+<ul>
+<li>联网之后更换软件源（换成清华或者阿里云之类的，在国内下载速度会快一点）。</li>
+<li>更新之后查看可用的驱动，理论上来说会自动搜索到机器适用的驱动然后安装就行了。</li>
+</ul>
+</li>
+<li>
+<p>BUT！机器总是各有各的个性，即使连上了有线网但还是无法搜索到相应的驱动，不管换成什么源都没有变化。那肯定就不是驱动没有安装的问题了。最后在<a href="https://blog.csdn.net/biggoodloong/article/details/81038922">csdn</a>上找到了解决的办法（面向CSDN学习）。实际上是无限硬件开关默认是关闭的，所以无法搜索到无线网。</p>
+<ul>
+<li>
+<p>首先查看无线硬件的状态：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rfkill list all
+</code></pre></div><p>会出现如下的提示：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">0: ideapad_wlan: Wireless LAN
+    Soft blocked: no
+    Hard blocked: yes
+    	
+0: phy0: Wireless LAN
+    Soft blocked: no
+    Hard blocked: no
+</code></pre></div><p>可以看到，<code>ideapad_wlan</code>的硬件被屏了，所以会搜索不到无线网。而<code>phy0</code>的优先级比较后，因此不会被选择。</p>
+</li>
+<li>
+<p>解决方法是直接将<code>ideapad</code>模块移除即可。使用modprobe工具来进行操作。（modprobe命令用于智能地向内核中加载模块或者从内核中移除模块。）</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo modprobe -r ideapad_laptop
+</code></pre></div><p>然后就可以搜到无线网啦。</p>
+</li>
+<li>
+<p>然后需要将这个设置保存，以免每次开机的时候都要重新进行设置。</p>
+<p>进入/etc/modprobe.d/文件夹下创建.conf文件，将这个模块加入黑名单。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo gedit /etc/modprobe.d/ideapad.conf
+</code></pre></div><p>输入</p>
+<pre><code>blacklish ideapad_laptop
+</code></pre><p>保存关闭之后再执行</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo modprobe -r ideapad_laptop
+</code></pre></div><p>重启即可保存设置。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>然后就基本搞定啦！装装相应的软件啊稍微做一点美化啊这些都相对来说比较轻松了。（在这里感谢PA讲义，配置vim的时候就很方便。）</p>
+</li>
+</ul>
+<p><em>above edit by 2020.02.15</em></p>
+
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>
