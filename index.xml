@@ -52,18 +52,6 @@ rfkill list all 会出现如下的提示：</description>
     </item>
     
     <item>
-      <title>Daily</title>
-      <link>https://GlaukosW.github.io/post/daily_record/</link>
-      <pubDate>Sat, 15 Feb 2020 13:24:25 +0800</pubDate>
-      
-      <guid>https://GlaukosW.github.io/post/daily_record/</guid>
-      <description>今天也是瘫着的一天！
-2020-02-15 从13号开始尝试搭blog。在Ubuntu上面试了一下好像因为版本不对所以不太搞得定。然后转到Windows上面又搞了两天。今天算刚刚开始（瘫）。捣鼓了好多主题最后还是觉得Hyde最好看（而且因为没什么功能所以配置也很简单），还是用了hyde。什么时候需求超出功能的时候再说啦。
-晚上捣鼓了一下Ubuntu的terminal，装了oh my zsh。随便找了个主题然后装了两个插件。感觉是好看了一点hhhh。下次要不要试一试random主题呢？（手动狗头）
-2020-02-16 添加了My Blog文章，今天也在努力做一个日更博主。</description>
-    </item>
-    
-    <item>
       <title>Something Unimportant</title>
       <link>https://GlaukosW.github.io/post/something_unimportant/</link>
       <pubDate>Sat, 15 Feb 2020 12:46:58 +0800</pubDate>
