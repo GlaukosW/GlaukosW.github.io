@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.64.1" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My blog ♪(^∇^*) &middot; SPARKS.</title>
+  <meta name="description" content="有关搭建这个网站的林林总总。" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://GlaukosW.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://GlaukosW.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://GlaukosW.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://GlaukosW.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://GlaukosW.github.io/"><h1>SPARKS.</h1></a>
+      <p class="lead">
+       There is always something worth writing down. 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://GlaukosW.github.io/">Home</a> </li>
+        <li><a href="https://GlaukosW.github.io/about/"> About </a></li><li><a href="https://github.com/GlaukosW/"> Github </a></li><li><a href="https://GlaukosW.github.io/post/something_unimportant/"> 😉 </a></li>
+      </ul>
+    </nav>
+
+    <p>Copyright (c) 2020, Jenny W.</p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>My blog ♪(^∇^*)</h1>
+  <time datetime=2020-02-16T02:38:49&#43;0800 class="post-date">Sun, Feb 16, 2020</time>
+  <h2 id="契机">契机</h2>
+<p>因为寒假很无聊啊~~换了电脑之后捣鼓了不老少奇奇怪怪的东西，就想找个地方记录一下过程和体会（顺便看看自己每天都瘫着干些什么）。但是就储存在本地的话……说实话也太 无 趣 了 吧。就想搭一个网站玩玩。</p>
+<p>（当然我还是很想开学）</p>
+<h2 id="工具">工具</h2>
+<p><strong>Hugo + GitHub pages</strong></p>
+<p>相比CSDN，简书，知乎等等的，还是希望能找一个有一点自己风格和感觉的地方，而且让自己写的东西旁边充斥着广告什么的，想想就……我拒绝。花钱买域名？不存在的。所以还是GitHub比较方便啦~<a href="https://pages.github.com/">GitHub Pages</a>本身就是GitHub支持的个人网站形式，本质上也就是一个GitHub repository，因此管理起来也非常方便。官方建议是用Jekyll来进行构建，可以直接使用markdown来进行写作。一般来说主流一点的还有<a href="https://hexo.io/zh-cn/">hexo</a>（拥有大量的主题库和插件，反正就是很炫）和<a href="https://gohugo.io/">hugo</a>（The world&rsquo;s fastest frame work for building websites, 官方宣传）。（吐槽一下这两个的图标除了颜色简直一毛一样。）一般来说用hexo的比较多，而且由于主题多，所以可以做的非常好看；而hugo的框架比较简单，依赖Go语言环境，主题也比较少。</p>
+<p>反正脑子一抽就hugo了，没那么多原因。</p>
+<h2 id="搭建过程">搭建过程</h2>
+<p>原来是打算在Ubuntu里面搞的（毕竟Ubuntu已经装了git而且命令行也比较好看），捣鼓linuxbrew等等乱七八糟的东西，最后还是用的apt-get，但是后来装了一下发现版本不对（超级古早的版本），而且那天网速超级差，下一个东西的时间就够我打一局游戏，所以就半途而废了。</p>
+<p>然后转到Windows，按照官方文档下载发行的二进制文件，安装git和配置Go语言环境，啦啦啦……在安装Go的时候发现竟然连官网都被墙了，然后就又捣鼓了科学上网（花钱就是靠谱！）终于把安装包下载下来。</p>
+<p>（在不断安装和配置的过程中，wzj同学逐渐对添加环境变量熟门熟路。）</p>
+<p>把所有的安装啊依赖啊路径都搞好之后，就正式开始啦！</p>
+<p>开天辟地的命令：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo new site
+</code></pre></div><p>hhhhh开个玩笑，就是建立一个静态站点嘛。</p>
+<p>然后找自己喜欢的主题为基础来进行搭建（主要时间都浪费在这个上面了）。本来找了一个很好看而且功能也超级多的主题（Meme），结果在搭建的时候发现要求安装hugo扩展版，然鹅我自己这个不是。本来想用go install重新安装的，捣鼓了一下也没有成功安装（不排除是网络的原因）。所以就放弃了这个主题，看来看去还是最简单的Hyde最好看（感慨一下设计出这个主题的人真的是天才），反正现在也没有特别多花里胡哨的需求，所以就这个啦。</p>
+<p>然后就是逐渐往里面加入内容啊，这种就慢慢来啦。</p>
+<p><em>above edit by 2020.02.16</em></p>
+
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>
