@@ -5,10 +5,24 @@
     <link>https://GlaukosW.github.io/post/</link>
     <description>Recent content in Posts on SPARKS.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 Feb 2020 13:24:25 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 17 Feb 2020 12:17:19 +0800</lastBuildDate>
     
 	<atom:link href="https://GlaukosW.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Psysiology Notes Chapter 1</title>
+      <link>https://GlaukosW.github.io/post/psysiology_notes_cp1/</link>
+      <pubDate>Mon, 17 Feb 2020 12:17:19 +0800</pubDate>
+      
+      <guid>https://GlaukosW.github.io/post/psysiology_notes_cp1/</guid>
+      <description>生理学的概念 Physiology ： the study of the logic of life
+研究生物机体以及各组分正常功能活动规律的科学。
+注重生命体的完整性，其自我控制和调节功能。
+生理学的历史 东方：以哲学为基础。《黄帝内经》。建立在《易经》的基础上，将人体与自然结合，提出的“阴阳五行学说”、“脉象学说”、“藏象学说”等等。
+西方生理学的发展：
+ Hippocrates时代 (BC 420)： 生理学成为医学的一部分。Hippocrates, the father of medicine, 提出了体液学说，人体由黑胆汁、血液、粘液、黄胆汁四种体液组成。 Claudius Galenus：古罗马时期的希腊的医生、动物解剖学家和哲学家。认为人由脑和神经（思维感觉）、心和动脉（生命） 、肝和静脉（营养成长）三个部分组成。 Jean Fernel：法国医生，用physiologla来称呼研究人体结构和功能的医学 William Harvey：英国医生，被称为生理学之父：用实验证实了对血液循环的推测：On the motion of the heart and blood in animals, 1682,生理学真正成为一门实验性科学。 Marcello Malpighi (1628-1694)：意大利生理学家，使用显微镜发现了毛细血管，证实Harvey对循环系统结构的推论，明确了循环生理的基本规律。 Rene Descartes (1596-1650)：法国哲学家、物理学家、数学家、生理学家（笛卡尔牛逼！）。将**“反射 reflex”**的概念应用于生理学，为神经系统活动规律的研究开辟了道路。 Luigi Galvani (1737-1798)：意大利解剖教授，发现了生物电，开创生物组织的电活动的研究。“阳台实验”。神经细胞的电活动作为神经细胞功能的一个重要方面，我们通过研究细胞的电活动来研究神经细胞的功能。 Claud Bernard (1813-1878)：法国生理学家，首先提出**“内环境**”的概念。1865年出版《实验医学导论》，指出内环境的稳定是“机体自由独立生活的必要条件”。 Ivan Pavlov (1849-1937)：俄国生理学家，进行关于循环、消化和高级神经活动的研究，创立条件反射学说（表明生命体能够适应环境的功能），提出了两个信号系统学说（非语言的和语言的，区别人和动物的重要标志）。现代生理学的奠基人之一。 Walter Bradford Cannon (1871-1945)：在《人体的智慧》一书中提出**稳态(Honeostasis)**的概念。稳态：内环境的相对稳定，不依靠使生物体和环境隔开，而是不断地调节体内的各种生理过程而达到的稳态。内稳态理论是现代生理学建立的标志，是生理学进一步发展的基础。 林可胜 (1897-1969)：中国生理学家，中国现代生理学的奠基人。创建中国生理学会，主编《中国生理学杂志》，担任中华医学学会会长。  生理学的研究方法 生理学研究的不同水平  细胞、分子水平：各种细胞的超微结构的功能活动，以及细胞内各种物质分子的物理化学 变化过程。 器官水平：各种器官生理功能活动的规律及其调控机制，以及它们对整体水平生理功能的作用和意义。 整体水平：各个系统之间功能联系，正常人体内、外环境之间维持相对平衡的生理过程及其机制。  研究方法  急性实验：离体细胞、组织、器官的实验和整体实验。（乙酰胆碱的发现） 慢性实验：在机体内、外环境相对稳定的条件下，在完整且清醒的动物身上进行的各种实验。（胰岛素的发现）  机体的内环境 体液和体液的分布 体液：人体细胞内外所含液体，成人体液约占体重的60%。细胞外液1/3，细胞内液2/3。（包括组织液约4/5，血浆约1/5，淋巴液少量，胸膜腔、脑脊腔棘关节腔内的液体。）注意：膀胱、消化道等处液体不属于细胞外液。</description>
+    </item>
     
     <item>
       <title>Daily</title>
@@ -17,6 +31,7 @@
       
       <guid>https://GlaukosW.github.io/post/daily_record/</guid>
       <description>今天也是瘫着的一天！
+2020-02-17 开学第一天！上午生理学下午操作系统。
 2020-02-16 添加了My Blog文章，今天也在努力做一个日更博主。
 写了两行贪吃蛇，include的一个包好像有点问题，所以就不想写了，这个项目每天顶多写两行，还不知道最后会不会留着，我觉得有点危险啊。
 学习了一下make，把自己现在只有两个[.c]和一个[.h]的贪吃蛇用Makefile搞了一下，很简陋，不过总要慢慢来嘛。记了两行笔记，不过在Ubuntu里面（而且实在没几个字），所以就暂时不放上来了。
