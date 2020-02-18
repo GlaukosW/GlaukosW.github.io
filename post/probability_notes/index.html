@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.64.1" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>概率论与数理统计（一） &middot; SPARKS.</title>
+  <meta name="description" content="概率论笔记，第一章：概率的基本概念" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://GlaukosW.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://GlaukosW.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://GlaukosW.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://GlaukosW.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://GlaukosW.github.io/"><h1>SPARKS.</h1></a>
+      <p class="lead">
+       There is always something worth writing down. 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://GlaukosW.github.io/">Home</a> </li>
+        <li><a href="https://GlaukosW.github.io/about/"> About </a></li><li><a href="https://github.com/GlaukosW/"> Github </a></li><li><a href="https://GlaukosW.github.io/post/something_unimportant/"> 😉 </a></li>
+      </ul>
+    </nav>
+
+    <p>Copyright (c) 2020, Jenny W.</p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>概率论与数理统计（一）</h1>
+  <time datetime=2020-02-18T21:29:29&#43;0800 class="post-date">Tue, Feb 18, 2020</time>
+  <h1 id="第一章-概率的基本概念">第一章 概率的基本概念</h1>
+<h2 id="随机试验">随机试验</h2>
+<p><strong>随机试验</strong>：如果一个实验具有重复性（试验可在相同条件下重复进行）、多样性（试验的结果不止一个，并且一切可能的结果都已知）、随机性（每次试验前，结果不确定），则称该实验为随机试验，简称试验。通常用 $E$ 表示。</p>
+<h2 id="样本空间随机事件">样本空间，随机事件</h2>
+<p><strong>样本空间, 样本点</strong>：随机试验 $E$ 所有可能的结果的全体组成的集合称为 $E$ 的<strong>样本空间</strong>，记为 $S$ 。 $S$ 中的元素（可能结果）称为<strong>样本点</strong>，$S = {e}$。注意： 样本空间的元素是由实验目的所确定的，样本空间不一定是有限的，也可以是无限的。</p>
+<p><strong>随机事件</strong>：称E的样本空间 $S$ 的子集为 $E$ 的<strong>随机事件</strong>，简称事件。</p>
+<p><strong>基本事件</strong>：由一个样本点组成的单点集（相对于观察目的不可再分解的事件）。</p>
+<p>当且仅当集合 $A$ 中的一个样本点出现时，称<strong>事件 $A$ 发生</strong>。</p>
+<p><strong>必然事件</strong>：样本空间 $S$</p>
+<p><strong>不可能事件</strong>：空集中不包含任何样本点，每次试验必定不发生，$\phi$</p>
+<h3 id="事件的运算">事件的运算</h3>
+<p><strong>和事件</strong>: $A\cup B = {x \in A 或x\in B}$ 称为 $A$ 与 $B$ 的和事件. 当且仅当 $A$ 与 $B$ 中至少有一个发生时, 称为 $A\cup B$ 发生. 也记为 $A +B$</p>
+<p>类似的, 称 $\bigcup_{k = 1}^{n}A_k$ 称为 事件 $A_1,A_2 &hellip; A_n$ 的和事件,  $\bigcup_{k = 1}^{\infin}A_k$ 称为可列事件 $A_1, A_2&hellip;$ 的和事件.</p>
+<p><strong>可列</strong>：1. 无穷多个 2.可以排列</p>
+<p><strong>积事件</strong>: $A\cap B = {x \in A 且x\in B}$. 也记为 $AB$</p>
+<p><strong>差事件</strong>: $A - B = {x\in A 且 x\notin B}$</p>
+<h3 id="事件间的关系">事件间的关系</h3>
+<p><strong>包含关系</strong>：$B\subset A$，则称 $A$ 包含 $B$ 或 $B$ 包含在 $A$中。（若 $B$ 发生则 $A$ 一定发生）。若 $B\subset A$ 且 $A\subset B$，则称 $A$ 与 $B$ 相等。</p>
+<p><strong>事件的互不相容性</strong>：若 $A$ 与 $B$ 不可能同时发生，则称 $A$ 与 $B$ 互不相容(互斥).  $A\cap B = \phi$</p>
+<p><strong>对立事件</strong>：$A$ , $B$ <strong>有且仅有</strong>一个发生, $A\cup B = S 且 AB = \phi$, 则称 $A$ 与 $B$ 互为逆事件或对立事件. $\overline{A} = S - A$</p>
+<p><strong>对立事件与互不相容事件:</strong></p>
+<ul>
+<li>两事件对立,则一定互不相容</li>
+<li>互不相容适用于多个事件, 而对立适用于两个事件</li>
+<li>互不相容表示事件不能同时发生,但可以都不发生, 而对立事件一定有且仅有一个发生.</li>
+</ul>
+<p><strong>完备事件组</strong>: $A_1,A_2&hellip;A_n$互不相容且$A_1\cup A_2&hellip; \cup A_n = S$</p>
+<h3 id="事件运算律">事件运算律</h3>
+<ul>
+<li>交换律: $A \cup B = B \cup A,\space A\cap B = B \cap A$.</li>
+<li>结合律: $(A \cup B) \cup C = A \cup (B \cup C), \space (A\cap B) \cap C = A \cap (B \cap C)$.</li>
+<li>分配律:  $(A \cup B) \cap C =( A \cap C) \cup (B \cap C), \space (A\cap B) \cup C = (A \cup C)\cap (B \cup C)$.</li>
+<li>De-Morgan律: $\overline{A\cup B}=\overline{A}\cap\overline{B},\space \overline{A\cap B}=\overline{A}\cup\overline{B}$.
+<ul>
+<li>推广有$\overline{A_1\cup A_2&hellip;\cup A_n}=\overline{A_1}\cap\overline{A_2}&hellip;\cap\overline{A_n},\space \overline{A_1\cap A_2&hellip;\cap A_n}=\overline{A_1}\cup\overline{A_2}&hellip;\cup\overline{A_n}$.</li>
+</ul>
+</li>
+<li>$\overline{\overline{A}} = A$.</li>
+<li>$A-B = A\overline{B} = A - AB$.</li>
+</ul>
+<h2 id="频率与概率">频率与概率</h2>
+<h3 id="频数与频率">频数与频率</h3>
+<p><strong>频数, 频率</strong>: 设在$n$次重复试验中, 事件 $A$ 出现了 $n_A$ 次,则称 $n_A$ 为事件 $A$ 在 $n$ 次试验中出现的频数, $\frac{n_A}{n}$为事件 $A$ 在 $n$ 次试验中痴线的频率, 记为 $f_n(A)$.</p>
+<p><strong>频率的性质:</strong></p>
+<ul>
+<li>非负性: $0\leq f_n(A) \leq1$.</li>
+<li>规范性: 若 $S$ 为必然事件,则 $f_n(S) = 1$.</li>
+<li>有限可加性: 若 $A_1, A_2&hellip;A_k$ 为两两互不相容的事件,则$f_n(\bigcup_{i = 1}^kA_i) = \sum_{i=1}^kf_n(A_i)$.</li>
+</ul>
+<p><strong>频率的稳定性</strong>: 随着试验次数的增加, 事件的频率将在某个数值 $p$ 附近稳定地摆动, 此数值可以定义为事件 $A$ 发生的概率, 称为统计概率.</p>
+<h3 id="概率的公理化定义">概率的公理化定义：</h3>
+<p>设 $E$ 为随机试验, $S$ 是其样本空间, 对 $E$ 的每个事件 $A$ 赋予一个实数, 记为 $P(A)$ , 称为事件 $A$ 的概率, 若集合函数 $P(\cdot)$满足:</p>
+<ol>
+<li>非负性: $\forall A \subset S, P(A) \geq 0$</li>
+<li>归一性: $P(S) = 1$</li>
+<li>可列可加性:对于两两互不相容事件$A_1,A_2,&hellip;$, 有 $P\left(\bigcup_{i=1}^{\infin}A_i\right) = \sum_{i = 1}^{\infin}P(A_i)$</li>
+</ol>
+<p><strong>概率的性质:</strong></p>
+<ul>
+<li>$P(\phi) = 0$.</li>
+<li>有限可加性: 若$A_1, A_2&hellip;,A_n$两两互不相容, 则有$P(A_1+A_2+&hellip;+A_n) = P(A_1)+P(A_2)+&hellip;+P(A_n)$.</li>
+</ul>
+
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>
