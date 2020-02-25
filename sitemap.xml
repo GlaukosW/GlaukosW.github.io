@@ -1,53 +1,72 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet type="text/xsl" href="http://GlaukosW.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://GlaukosW.github.io/post/daily_record/</loc>
-    <lastmod>2020-02-22T21:27:29+08:00</lastmod>
+    <loc>http://GlaukosW.github.io/post/daily_record/</loc>
+    <lastmod>2020-02-25T21:27:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://GlaukosW.github.io/post/</loc>
-    <lastmod>2020-02-22T21:27:29+08:00</lastmod>
+    <loc>http://GlaukosW.github.io/post/</loc>
+    <lastmod>2020-02-25T21:27:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://GlaukosW.github.io/</loc>
-    <lastmod>2020-02-22T21:27:29+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://GlaukosW.github.io/post/psysiology_notes_cp1/</loc>
+    <loc>http://GlaukosW.github.io/post/psysiology_notes_cp1/</loc>
     <lastmod>2020-02-17T12:17:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://GlaukosW.github.io/post/blog_build/</loc>
-    <lastmod>2020-02-16T02:38:49+08:00</lastmod>
+    <loc>http://GlaukosW.github.io/post/blog_build/</loc>
+    <lastmod>2020-02-25T02:38:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://GlaukosW.github.io/post/ubuntu_install/</loc>
+    <loc>http://GlaukosW.github.io/post/ubuntu_install/</loc>
     <lastmod>2020-02-15T14:32:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://GlaukosW.github.io/post/something_unimportant/</loc>
+    <loc>http://GlaukosW.github.io/post/something_unimportant/</loc>
     <lastmod>2020-02-15T12:46:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://GlaukosW.github.io/about/</loc>
-    <lastmod>2020-02-15T12:35:01+08:00</lastmod>
+    <loc>http://GlaukosW.github.io/about/</loc>
+    <lastmod>2020-02-25T12:35:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://GlaukosW.github.io/categories/</loc>
+    <loc>http://GlaukosW.github.io/</loc>
+    <lastmod>2020-02-25T12:35:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://GlaukosW.github.io/tags/</loc>
+    <loc>http://GlaukosW.github.io/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://GlaukosW.github.io/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>

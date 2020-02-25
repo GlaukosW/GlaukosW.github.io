@@ -2,130 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on SPARKS.</title>
-    <link>https://GlaukosW.github.io/post/</link>
+    <link>http://GlaukosW.github.io/post/</link>
     <description>Recent content in Posts on SPARKS.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 22 Feb 2020 21:27:29 +0800</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Tue, 25 Feb 2020 21:27:29 +0800</lastBuildDate>
     
-	<atom:link href="https://GlaukosW.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://GlaukosW.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Daily</title>
-      <link>https://GlaukosW.github.io/post/daily_record/</link>
-      <pubDate>Sat, 22 Feb 2020 21:27:29 +0800</pubDate>
+      <link>http://GlaukosW.github.io/post/daily_record/</link>
+      <pubDate>Tue, 25 Feb 2020 21:27:29 +0800</pubDate>
       
-      <guid>https://GlaukosW.github.io/post/daily_record/</guid>
-      <description>今天也是瘫着的一天！
-2020-02-22 今天好多2啊hhhh。（写完这篇的时候正好22：22，真是巧欸。）
-上午复习了一下计算方法，老师课上讲的和书上的有些细节的地方不太一样，但是不影响理解所以先不管啦。
-下午pstree进展缓慢，感觉自己不会的东西太多了，sigh。
-麻麻今天做了包子！超级成功！长得也很好看！
-然后就没有什么了。。。本来想做一下percolation的，但是发现自己理解错了题意，瞬间就没有兴致了。
-看来还是排满课的工作日效率比较高呢（讽刺）。
-明天要好好学习！
-Log：更改了blog的description。（可惜这首歌网易云现在要会员才能听了。）
-2020-02-21 周末就是用来赖床的。（说起来我在做计划的时候在上午十点之前都没有给自己安排学习任务，我真是太了解我自己了。）
-自从改了coursera的host之后终于可以正常看视频了，但是还是稍微会卡顿，嘛知足了知足了。今天学了有关UNION-FIND的内容，emmmm要不要整理一下嘞。
-晚上喝了一杯黄酒，彻底被打倒了。第一次感受到酒精造成的头有点晕的感觉。（不过和我爸一比感觉自己真的不能再清醒了。如何与酒喝多了的神志不清的人讲话？急，在线等。）
-买的鼠标终于到了！手感还可以，颜色和电脑很配hhhhh。
-草莓味的超细百奇超级好吃！！！！一包可以吃一下午！
-下午写OS，在家就完全没有什么紧迫感。写了一下午就写了一个命令行参数解析。
-淦，如何和认真比赛吃瓜子的成年人交流？还要我去做公正？？为什么喝酒了会这样？？？我日志都不能好好写了！
-2020-02-20 非常久违地下楼蹦跶了一下，太阳超级好啊，天也瓦蓝瓦蓝的，就很有春天来了的感觉。
-学习效率贼低，一点点作业写半天。
-买的键盘膜到了，现在打字速度慢了一半……键盘膜太硬了完全不适应。（感觉总有一天我会扔了它。）
-感觉比昨天平静一点了（至少开始写作业了），可能是已经接受了自己的状态hhhhh。
-明天打算定一下学习计划，有计划才有动力嘛。
-2020-02-19 在狗东买的鼠标……16号下单的时候显示预计2月20送达，17号看显示2月21日送达，昨天看显示2月22送达，今天早上起床第一件事先看物流状态，果然，预计2月23日送达。（满嘴脏话）
-发现同一门课的老师的上课状态真的差距好大……同样的内容一个老师用一个半小时讲完，另一个老师用3个小时讲完，还。（不过还是补充了一点笔记内容，记不住的知识增加了！）
-下载了基于Chromium的新版Microsoft Edge。新版图标超！级！美！丽！爱了！
-这两天完全没有学习状态，除了上课什么都不想干。在床上瘫着连手机都不想刷。无聊无聊无聊无聊……感觉已经到了空虚的状态了，救命。
-（不行，明天一定要开始学习了。&amp;lt;&amp;ndash;想桃子）
-2020-02-18 用PPT的数学课都没有良心！概率论30s讲完一张PPT真的没法记笔记。想念邱邱（和邱邱的板书）了。
-尝试用markdown记概率论笔记。除了痛苦没别的了。
-脑成像，过于硬核（可能只有我自己这么觉得），看了两个多小时感觉啥都不会。意料之外的是非常偏向应用的学科。基础知识可能要补一下（和neuroscience的知识不是太重合，要补一些脑的结构的知识）。
-下午和爸妈打了会儿牌，体会到了一轮把牌出光的快感，总共赚了200软妹币，嘿嘿嘿。
-然后就什么都没干了，例假第一天真的要我命，连脑子都动不起来。还是老老实实床上瘫着吧。（我是不是应该感慨自己还有卫生巾用？而且还有头发？&amp;lt;&amp;ndash;对这几天的事件无力的讽刺）
-刚发现hugo的网站无法显示公式！！！！！惊了！！！！！（赶紧撤回已经发布的概率论笔记）
-2020-02-17 达成成就：在Bilibili上学，以及一边嗑瓜子一边上课。
-为了假装自己写了很多东西，把生理学的笔记放到网站上了。还研究了一下如何添加图片。虽然添是添上了，但是加载起来好——慢——啊——！说实话图片的加载速度和我做PA的时候开着时钟中断跑仙剑奇侠传的速度差不多，sigh。应该是图片太大了。顺便看了hugo的文档感觉应该有另外的添加方法，找时间研究一下。
-下午把寒假看的剧都看完了，整个寒假的看剧计划算是告一段落。印象最深的还是《非自然死亡》吧，我永远喜欢三澄美琴！（石原里美真的是越看越好看的女孩子啊。）
-晚上打了一会儿cy2。虽然现在cy2是一个恰烂钱的抽卡游戏了，但暂时并没有换坑的打算，本来想咬咬牙把💊系统氪了（毕竟已经攒了十几个了），看了下价格就放弃了（流下了贫穷的泪水，我也想抽到NEKO的沙雕立绘啊！！）。
-把QQ头像换成了AMOEBA，有点鲜艳，稍微有一点点不适应，可能过两天就又换掉了。
-和R先生聊了一下，深刻认识到自己的错误并决定发生改变。
-总结：开学第一天也仍然不务正业。（还有我是不是话越来越多了？）
-2020-02-16 添加了My Blog文章，今天也在努力做一个日更博主。
-写了两行贪吃蛇，include的一个包好像有点问题，所以就不想写了，这个项目每天顶多写两行，还不知道最后会不会留着，我觉得有点危险啊。
-学习了一下make，把自己现在只有两个[.c]和一个[.h]的贪吃蛇用Makefile搞了一下，很简陋，不过总要慢慢来嘛。记了两行笔记，不过在Ubuntu里面（而且实在没几个字），所以就暂时不放上来了。
-今日负能量：渴求理解的时候永远找不到理解，奢望安慰的时候永远没有人安慰，这才是应该适应的生活常态。所以直面自己不知源头又无处发泄的烦躁吧，难道还能指望别人吗？
-明天就要开学了，感觉自己还完全没有准备好。（我这是开学恐惧症吗？？）
-2020-02-15 从13号开始尝试搭blog。在Ubuntu上面试了一下好像因为版本不对所以不太搞得定。然后转到Windows上面又搞了两天。今天算刚刚开始（瘫）。捣鼓了好多主题最后还是觉得Hyde最好看（而且因为没什么功能所以配置也很简单），还是用了hyde。什么时候需求超出功能的时候再说啦。
-晚上捣鼓了一下Ubuntu的terminal，装了oh my zsh。随便找了个主题然后装了两个插件。感觉是好看了一点hhhh。下次要不要试一试random主题呢？（手动狗头）</description>
+      <guid>http://GlaukosW.github.io/post/daily_record/</guid>
+      <description>记录一下wzj同学的颓废生活，今天也是瘫着的一天！</description>
     </item>
     
     <item>
       <title>Psysiology Notes Chapter 1</title>
-      <link>https://GlaukosW.github.io/post/psysiology_notes_cp1/</link>
+      <link>http://GlaukosW.github.io/post/psysiology_notes_cp1/</link>
       <pubDate>Mon, 17 Feb 2020 12:17:19 +0800</pubDate>
       
-      <guid>https://GlaukosW.github.io/post/psysiology_notes_cp1/</guid>
-      <description>生理学的概念 Physiology ： the study of the logic of life
-研究生物机体以及各组分正常功能活动规律的科学。
-注重生命体的完整性，其自我控制和调节功能。
-生理学的历史 东方：以哲学为基础。《黄帝内经》。建立在《易经》的基础上，将人体与自然结合，提出的“阴阳五行学说”、“脉象学说”、“藏象学说”等等。
-西方生理学的发展：
- Hippocrates时代 (BC 420)： 生理学成为医学的一部分。Hippocrates, the father of medicine, 提出了体液学说，人体由黑胆汁、血液、粘液、黄胆汁四种体液组成。 Claudius Galenus：古罗马时期的希腊的医生、动物解剖学家和哲学家。认为人由脑和神经（思维感觉）、心和动脉（生命） 、肝和静脉（营养成长）三个部分组成。 Jean Fernel：法国医生，用physiologla来称呼研究人体结构和功能的医学 William Harvey：英国医生，被称为生理学之父：用实验证实了对血液循环的推测：On the motion of the heart and blood in animals, 1682,生理学真正成为一门实验性科学。 Marcello Malpighi (1628-1694)：意大利生理学家，使用显微镜发现了毛细血管，证实Harvey对循环系统结构的推论，明确了循环生理的基本规律。 Rene Descartes (1596-1650)：法国哲学家、物理学家、数学家、生理学家（笛卡尔牛逼！）。将**“反射 reflex”**的概念应用于生理学，为神经系统活动规律的研究开辟了道路。 Luigi Galvani (1737-1798)：意大利解剖教授，发现了生物电，开创生物组织的电活动的研究。“阳台实验”。神经细胞的电活动作为神经细胞功能的一个重要方面，我们通过研究细胞的电活动来研究神经细胞的功能。 Claud Bernard (1813-1878)：法国生理学家，首先提出**“内环境**”的概念。1865年出版《实验医学导论》，指出内环境的稳定是“机体自由独立生活的必要条件”。 Ivan Pavlov (1849-1937)：俄国生理学家，进行关于循环、消化和高级神经活动的研究，创立条件反射学说（表明生命体能够适应环境的功能），提出了两个信号系统学说（非语言的和语言的，区别人和动物的重要标志）。现代生理学的奠基人之一。 Walter Bradford Cannon (1871-1945)：在《人体的智慧》一书中提出**稳态(Honeostasis)**的概念。稳态：内环境的相对稳定，不依靠使生物体和环境隔开，而是不断地调节体内的各种生理过程而达到的稳态。内稳态理论是现代生理学建立的标志，是生理学进一步发展的基础。 林可胜 (1897-1969)：中国生理学家，中国现代生理学的奠基人。创建中国生理学会，主编《中国生理学杂志》，担任中华医学学会会长。  生理学的研究方法 生理学研究的不同水平  细胞、分子水平：各种细胞的超微结构的功能活动，以及细胞内各种物质分子的物理化学 变化过程。 器官水平：各种器官生理功能活动的规律及其调控机制，以及它们对整体水平生理功能的作用和意义。 整体水平：各个系统之间功能联系，正常人体内、外环境之间维持相对平衡的生理过程及其机制。  研究方法  急性实验：离体细胞、组织、器官的实验和整体实验。（乙酰胆碱的发现） 慢性实验：在机体内、外环境相对稳定的条件下，在完整且清醒的动物身上进行的各种实验。（胰岛素的发现）  机体的内环境 体液和体液的分布 体液：人体细胞内外所含液体，成人体液约占体重的60%。细胞外液1/3，细胞内液2/3。（包括组织液约4/5，血浆约1/5，淋巴液少量，胸膜腔、脑脊腔棘关节腔内的液体。）注意：膀胱、消化道等处液体不属于细胞外液。</description>
+      <guid>http://GlaukosW.github.io/post/psysiology_notes_cp1/</guid>
+      <description>生理学笔记，第一章：绪论</description>
     </item>
     
     <item>
       <title>My blog ♪(^∇^*)</title>
-      <link>https://GlaukosW.github.io/post/blog_build/</link>
+      <link>http://GlaukosW.github.io/post/blog_build/</link>
       <pubDate>Sun, 16 Feb 2020 02:38:49 +0800</pubDate>
       
-      <guid>https://GlaukosW.github.io/post/blog_build/</guid>
-      <description>契机 因为寒假很无聊啊~~换了电脑之后捣鼓了不老少奇奇怪怪的东西，就想找个地方记录一下过程和体会（顺便看看自己每天都瘫着干些什么）。但是就储存在本地的话……说实话也太 无 趣 了 吧。就想搭一个网站玩玩。
-（当然我还是很想开学）
-工具 Hugo + GitHub pages
-相比CSDN，简书，知乎等等的，还是希望能找一个有一点自己风格和感觉的地方，而且让自己写的东西旁边充斥着广告什么的，想想就……我拒绝。花钱买域名？不存在的。所以还是GitHub比较方便啦~GitHub Pages本身就是GitHub支持的个人网站形式，本质上也就是一个GitHub repository，因此管理起来也非常方便。官方建议是用Jekyll来进行构建，可以直接使用markdown来进行写作。一般来说主流一点的还有hexo（拥有大量的主题库和插件，反正就是很炫）和hugo（The world&amp;rsquo;s fastest frame work for building websites, 官方宣传）。（吐槽一下这两个的图标除了颜色简直一毛一样。）一般来说用hexo的比较多，而且由于主题多，所以可以做的非常好看；而hugo的框架比较简单，依赖Go语言环境，主题也比较少。
-反正脑子一抽就hugo了，没那么多原因。
-搭建过程 原来是打算在Ubuntu里面搞的（毕竟Ubuntu已经装了git而且命令行也比较好看），捣鼓linuxbrew等等乱七八糟的东西，最后还是用的apt-get，但是后来装了一下发现版本不对（超级古早的版本），而且那天网速超级差，下一个东西的时间就够我打一局游戏，所以就半途而废了。
-然后转到Windows，按照官方文档下载发行的二进制文件，安装git和配置Go语言环境，啦啦啦……在安装Go的时候发现竟然连官网都被墙了，然后就又捣鼓了科学上网（花钱就是靠谱！）终于把安装包下载下来。
-（在不断安装和配置的过程中，wzj同学逐渐对添加环境变量熟门熟路。）
-把所有的安装啊依赖啊路径都搞好之后，就正式开始啦！
-开天辟地的命令：
-hugo new site hhhhh开个玩笑，就是建立一个静态站点嘛。
-然后找自己喜欢的主题为基础来进行搭建（主要时间都浪费在这个上面了）。本来找了一个很好看而且功能也超级多的主题（Meme），结果在搭建的时候发现要求安装hugo扩展版，然鹅我自己这个不是。本来想用go install重新安装的，捣鼓了一下也没有成功安装（不排除是网络的原因）。所以就放弃了这个主题，看来看去还是最简单的Hyde最好看（感慨一下设计出这个主题的人真的是天才），反正现在也没有特别多花里胡哨的需求，所以就这个啦。
-然后就是逐渐往里面加入内容啊，这种就慢慢来啦。
-above edit by 2020.02.16</description>
+      <guid>http://GlaukosW.github.io/post/blog_build/</guid>
+      <description>有关搭建这个网站的林林总总。</description>
     </item>
     
     <item>
       <title>Ubuntu装机碎碎念</title>
-      <link>https://GlaukosW.github.io/post/ubuntu_install/</link>
+      <link>http://GlaukosW.github.io/post/ubuntu_install/</link>
       <pubDate>Sat, 15 Feb 2020 14:32:39 +0800</pubDate>
       
-      <guid>https://GlaukosW.github.io/post/ubuntu_install/</guid>
-      <description>为什么是Ubuntu？ 下学期OS还是要用linux系统，用腻了debian之后还是决定用ubuntu了（毕竟后面的oj的运行环境也是Ubuntu）。正好花了血本买了新的笔记本电脑。不是mbp（买不起），所以决定来搞一下真机。
-（不是太顺利的）过程  在网上找了一个非常详细的教程，一开始的时候信心满满地用了自己8G的U盘准备装机，BIOS似乎也调好了，但是准备正式开始装机的时候显示装机至少需要8.6G的空间，但是当前只有8G的空间？？？草（一种植物）。专门在京东上买了一个32G的U盘来重新装。气fufu。 以下所有出现的问题（可能）多多少少都和个人的机器有关。我自己的机器现在是联想拯救者Y9000x，15寸4k屏是很爽但是bug也蛮多（瘫）。  无法读取硬盘的问题   好不容易进入装机了。发现在安装时ubuntu无法读取硬盘（分了60G的空间白分了嘤）。上网去找原因。发现要在BIOS里面将SATA controller mode转为AHCI模式。然后转呗。转了之后发现windows竟然打不开了！Σ(っ °Д °;)っ刚入的机子就要被我搞坏了？？？STFW！
-果然遇到真正的问题还是要靠国际知识，在askubuntu网站里面找到了相对比较完善的解决方法。
- 首先在windows下进入安全模式。进入windows power shell Admin 输入bcdedit /set safebootminimal。 然后再进入BIOS将SATA controller mode设置为AHCI。secure boot disable等等。 再重新进入windows，退出安全模式。在Windows power shell Admin中输入bcdedit /deletevalue safeboot。 重启之后就可以正常进入windows啦。    在windows里面为ubuntu分配空间的时候，要将磁盘设置为空白卷，这样在ubuntu中设置空间的时候才能识别为空闲空间。感觉60G的空间对于16G内存的配置有点不够用hhhhhh。
-  后面就是安装啦。但是安装之后会发现无法连接无线网，需要下载相应的WIFI adapter。但是我没有把网线转换头带回来！！！！！淦。后面的只能等开学之后搞到转换头连上网线才能搞了。。。
-  碎碎念：什么时候开学啊！！！
-  above edit by 2020.02.05
-没有相应的无线适配器的问题。   然后江苏省政府要求二月底之前不开学（不——要——啊——），在京东又下单了一个转接头（绿联的，168rmb，肉痛。）终于连上了有线网。一般来说步骤是这样的：
- 联网之后更换软件源（换成清华或者阿里云之类的，在国内下载速度会快一点）。 更新之后查看可用的驱动，理论上来说会自动搜索到机器适用的驱动然后安装就行了。    BUT！机器总是各有各的个性，即使连上了有线网但还是无法搜索到相应的驱动，不管换成什么源都没有变化。那肯定就不是驱动没有安装的问题了。最后在csdn上找到了解决的办法（面向CSDN学习）。实际上是无限硬件开关默认是关闭的，所以无法搜索到无线网。
-  首先查看无线硬件的状态：
-rfkill list all 会出现如下的提示：</description>
+      <guid>http://GlaukosW.github.io/post/ubuntu_install/</guid>
+      <description>换了电脑之后决定装Ubuntu啦！</description>
     </item>
     
     <item>
       <title>Something Unimportant</title>
-      <link>https://GlaukosW.github.io/post/something_unimportant/</link>
+      <link>http://GlaukosW.github.io/post/something_unimportant/</link>
       <pubDate>Sat, 15 Feb 2020 12:46:58 +0800</pubDate>
       
-      <guid>https://GlaukosW.github.io/post/something_unimportant/</guid>
-      <description>😉 啦啦啦啦~</description>
+      <guid>http://GlaukosW.github.io/post/something_unimportant/</guid>
+      <description>你猜？</description>
     </item>
     
   </channel>
