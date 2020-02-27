@@ -6,26 +6,35 @@
     <description>Recent content in Posts on SPARKS.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Feb 2020 21:27:29 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2020 21:44:59 +0800</lastBuildDate>
     
 	<atom:link href="http://GlaukosW.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>生理学笔记（二）</title>
+      <link>http://GlaukosW.github.io/post/physiology_notes_cp2/</link>
+      <pubDate>Thu, 27 Feb 2020 21:44:59 +0800</pubDate>
+      
+      <guid>http://GlaukosW.github.io/post/physiology_notes_cp2/</guid>
+      <description>生理学笔记 第二章：细胞的基本功能</description>
+    </item>
+    
+    <item>
       <title>Daily</title>
       <link>http://GlaukosW.github.io/post/daily_record/</link>
-      <pubDate>Wed, 26 Feb 2020 21:27:29 +0800</pubDate>
+      <pubDate>Thu, 27 Feb 2020 21:27:29 +0800</pubDate>
       
       <guid>http://GlaukosW.github.io/post/daily_record/</guid>
       <description>记录一下wzj同学的颓废生活，今天也是瘫着的一天！</description>
     </item>
     
     <item>
-      <title>Psysiology Notes Chapter 1</title>
-      <link>http://GlaukosW.github.io/post/psysiology_notes_cp1/</link>
+      <title>生理学笔记（一）</title>
+      <link>http://GlaukosW.github.io/post/physiology_notes_cp1/</link>
       <pubDate>Mon, 17 Feb 2020 12:17:19 +0800</pubDate>
       
-      <guid>http://GlaukosW.github.io/post/psysiology_notes_cp1/</guid>
+      <guid>http://GlaukosW.github.io/post/physiology_notes_cp1/</guid>
       <description>生理学笔记，第一章：绪论</description>
     </item>
     
