@@ -2,8 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://GlaukosW.github.io/post/daily_03/</loc>
+    <lastmod>2020-03-01T22:20:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://GlaukosW.github.io/post/</loc>
-    <lastmod>2020-02-27T21:44:59+08:00</lastmod>
+    <lastmod>2020-03-01T22:20:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://GlaukosW.github.io/post/daily_02/</loc>
+    <lastmod>2020-02-29T21:27:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
