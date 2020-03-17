@@ -14,13 +14,19 @@
     <item>
       <title>Mar.</title>
       <link>http://GlaukosW.github.io/post/daily_03/</link>
-      <pubDate>Sun, 15 Mar 2020 21:20:27 +0800</pubDate>
+      <pubDate>Tue, 17 Mar 2020 21:00:27 +0800</pubDate>
       
       <guid>http://GlaukosW.github.io/post/daily_03/</guid>
       
         <description>&lt;p&gt;&lt;strong&gt;Inside out, then going upside down&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;it&amp;rsquo;s easy to sing, but it&amp;rsquo;s harder to live&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;CAROLE &amp;amp; TUESDAY： Round &amp;amp; Laundry&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2020-03-17-tue&#34;&gt;2020-03-17 Tue.&lt;/h2&gt;
+&lt;p&gt;昨天去找jyy问了一下有关L0的问题，发现就是qemu里面没有&lt;code&gt;malloc&lt;/code&gt;，但是OJ上面的klib谜之包含了&lt;code&gt;malloc&lt;/code&gt;的函数（估计不健全），所以在编译的时候并不会出现CE。（瘫）写了一个非常简陋的&lt;code&gt;malloc&lt;/code&gt;，只能保证程序运行，显示稍微调一点参数就会出错hhh，但即使这样还是通过了测试。很迷惑的就是明明分配堆区的代码真的就是按理来说是不对的，但就是恰好可以运行，而且但凡换一点点内容就崩溃。突然就有一种自己造的鸽子螺旋上升的感觉（When your program is a complete mess, but it does its job.）&lt;/p&gt;
+&lt;p&gt;做概率论的作业，感受到了概率论最大的难点（至今为止）是分类讨论和二重积分。&lt;/p&gt;
+&lt;p&gt;晚上下楼转了转，已经到了晚饭之后都不会感觉很冷的时候了呢。夜晚的天很清澈，还是没有完全黑下来的蓝紫色，不知道是什么名字的春季的星星四处散落，看着就突然觉得很幸福。记得有一颗星星特别亮，就在视线抬起就能看到的地方，给人一种触手可及的感觉，非常奇妙。&lt;/p&gt;
+&lt;p&gt;想起来初三的时候因为要上晚自习所以天天到家基本都天黑了，从小区门口到家的一段路上就很喜欢一个人和星星说话，对着天说“你好呀”和“再见”，絮絮叨叨一些无聊的话题，有时喜欢对着没有流星雨的天空许愿，“希望家人平安幸福”，（倒是很少会有关自己考试什么的，毕竟初三的时候还属于优等生哈哈哈）。在没人的路上，在夜空下转圈圈，要是看到天上的星星很亮就会很高兴。&lt;/p&gt;
+&lt;p&gt;星星啊星星，你还记得那个每天背着大大的书包，一个人回家的女孩子吗？&lt;/p&gt;
 &lt;h2 id=&#34;2020-03-14-sat--2020-03-15-sun&#34;&gt;2020-03-14 Sat. &amp;amp; 2020-03-15 Sun.&lt;/h2&gt;
 &lt;p&gt;周六一天都在Ubuntu上面，就合到周日一起写吧。&lt;/p&gt;
 &lt;p&gt;周六一天写了一个很简单的小游戏作为&lt;code&gt;amgame&lt;/code&gt;的作业，但是OJ提交的时候第一个easy test一直显示&lt;code&gt;runtime error&lt;/code&gt;，怎么调都调不对（debug一直到周日中午，仍然毫无进展）。关键是能通过第二个样例而且我自己在自己机器上运行的时候是完全没有问题的（开着游戏10min也并不会crash，所有键盘事件也都尝试过了）。所以真的搞得人非常绝望，打算先放一放，周一去问一下jyy第一个测试样例到底进行了哪些合法性检查，真的搞不定也就只能这样了，我真的没有再随便写一个像素点抖动上去混分的欲望，况且谁知道再写一个就一定能通过OJ呢？&lt;/p&gt;
