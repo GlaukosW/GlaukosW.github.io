@@ -2,8 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://GlaukosW.github.io/post/daily_05/</loc>
+    <lastmod>2020-05-14T22:49:37+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://GlaukosW.github.io/post/</loc>
-    <lastmod>2020-04-24T20:31:25+08:00</lastmod>
+    <lastmod>2020-05-14T22:49:37+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -59,7 +66,7 @@
   
   <url>
     <loc>http://GlaukosW.github.io/post/ubuntu_install/</loc>
-    <lastmod>2020-02-15T14:32:39+08:00</lastmod>
+    <lastmod>2020-05-13T10:32:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

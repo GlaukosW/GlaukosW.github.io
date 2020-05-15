@@ -12,6 +12,35 @@
     
     
     <item>
+      <title>May.</title>
+      <link>http://GlaukosW.github.io/post/daily_05/</link>
+      <pubDate>Thu, 14 May 2020 22:49:37 +0800</pubDate>
+      
+      <guid>http://GlaukosW.github.io/post/daily_05/</guid>
+      
+        <description>&lt;p&gt;&lt;strong&gt;Tell me how long&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;tell me how long&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;till we see the pieces that will break.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tell me how long&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;tell me how long&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;tell me how long will it take&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;till we wake up.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Chasing Coral: Tell Me How Long&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2020-05-06-wed&#34;&gt;2020-05-06 Wed.&lt;/h2&gt;
+&lt;p&gt;日记咕咕咕了好久了呢……最近一直都没有想起来，还是要好好记录呀。&lt;/p&gt;
+&lt;p&gt;四月份没写几篇就过去了，是我日渐忙碌起来了还是逐渐失去了发现和反思的心思呢？&lt;/p&gt;
+&lt;p&gt;今年的五一假期放了5天，当然调休还是有的，花了将近两整天在回南京的路上，在家的三天一天用来打扫卫生和采购，剩下两天只做了一个计算方法的实习题，不过也算是入门了以下Matlab，感觉还不错（虽然花了蛮多时间用来看手册啦）。&lt;/p&gt;
+&lt;p&gt;五一的时候和大家一起聚餐（明明辅导员还叮嘱同学们不要出门来着hhhh），有一种久违的很放松的感觉。大家一起的话，不论聊起什么都会有共同话题，学习上的生活中的，都可以收到共鸣。&lt;/p&gt;
+&lt;h2 id=&#34;2020-05-14-thur&#34;&gt;2020-05-14 Thur.&lt;/h2&gt;
+&lt;p&gt;我 就是 鸽王。&lt;/p&gt;
+&lt;p&gt;学习和日志双重意义上的。&lt;/p&gt;
+&lt;p&gt;前段时间突然有一种自己的学习全部都崩溃的感觉，低沉了很久，现在虽然状况没什么好转，但心情好像平静一点了。&lt;/p&gt;
+&lt;p&gt;这两天好像很容易哭，眼泪动不动就下来了……&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>有关网络环境等的一些思考</title>
       <link>http://GlaukosW.github.io/post/about_social_network/</link>
       <pubDate>Fri, 24 Apr 2020 20:31:25 +0800</pubDate>
@@ -999,6 +1028,18 @@ $$
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;above edit by 2020.02.15&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;hp-envy-13-安装&#34;&gt;HP-ENVY-13 安装&lt;/h2&gt;
+&lt;p&gt;因为公选课要使用Nvidia的显卡和linux系统，因此只能又把老爸的电脑搞过来。&lt;/p&gt;
+&lt;p&gt;有一说一买了一个没有独显的电脑同时选一门名叫GPU与人工智能的网课是我这学期做的非常蠢的决定之一。（还有一个是选了系统生物学导论）&lt;/p&gt;
+&lt;p&gt;一开始迅速地下载了virtual box并飞快地装上了ubuntu，同时顺利地安装了CUDA和cudnn，然鹅在测试的时候发现根本检测不到显卡，STFN之后发现虚拟机中的显卡也是虚拟的（可以这么理解），实际上并不能真正使用硬件上的N卡，所以基本上就是没有用的。&lt;/p&gt;
+&lt;p&gt;所以只能装真机。&lt;/p&gt;
+&lt;p&gt;（中间经过若干次手抖把我本地的ubuntu18.04.3镜像删掉了，真的绝了，只能重新下载，清华源nb）&lt;/p&gt;
+&lt;p&gt;然后就发现！&lt;/p&gt;
+&lt;p&gt;上面提到的各种问题真的都是&lt;/p&gt;
+&lt;p&gt;我！电！脑！的！问！题！&lt;/p&gt;
+&lt;p&gt;因为在HP-ENVY上面装的过程不要太顺利……根本没有什么硬盘无法读取啊，连不上无线网啊这种问题。&lt;/p&gt;
+&lt;p&gt;气死我了，我这不争气的联想电脑。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;above edit by 2020.50.13&lt;/em&gt;&lt;/p&gt;
 </description>
       
     </item>
