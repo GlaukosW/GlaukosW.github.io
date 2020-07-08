@@ -6,15 +6,24 @@
     <description>Recent content in Posts on SPARKS.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Jun 2020 22:01:15 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2020 16:34:44 +0800</lastBuildDate>
     
 	<atom:link href="http://GlaukosW.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Daily_07</title>
+      <link>http://GlaukosW.github.io/post/daily_07/</link>
+      <pubDate>Wed, 08 Jul 2020 16:34:44 +0800</pubDate>
+      
+      <guid>http://GlaukosW.github.io/post/daily_07/</guid>
+      <description>Take me hand.</description>
+    </item>
+    
+    <item>
       <title>June.</title>
       <link>http://GlaukosW.github.io/post/daily_06/</link>
-      <pubDate>Sun, 21 Jun 2020 22:01:15 +0800</pubDate>
+      <pubDate>Tue, 30 Jun 2020 22:01:15 +0800</pubDate>
       
       <guid>http://GlaukosW.github.io/post/daily_06/</guid>
       <description>Always be there.</description>
