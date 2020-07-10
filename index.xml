@@ -12,9 +12,9 @@
     
     
     <item>
-      <title>Daily_07</title>
+      <title>July.</title>
       <link>http://GlaukosW.github.io/post/daily_07/</link>
-      <pubDate>Wed, 08 Jul 2020 16:34:44 +0800</pubDate>
+      <pubDate>Fri, 10 Jul 2020 16:34:44 +0800</pubDate>
       
       <guid>http://GlaukosW.github.io/post/daily_07/</guid>
       
@@ -34,6 +34,35 @@
 &lt;p&gt;人在情感强烈的时候总会有创作的冲动，不论是音乐、美术，还是文学，想要把我离奇的想法记录下来，想要把我汹涌的情感保存下来，我眼中的泪水，内心的悸动，哽在喉咙的那一声呐喊，全部献给你，献给我所爱的人，献给这个世界。&lt;/p&gt;
 &lt;p&gt;正好耳边响起一句：“Hold on to your heart.”&lt;/p&gt;
 &lt;p&gt;（歌词来自 Of Monsters And Men 的 &lt;em&gt;Your Bones&lt;/em&gt;）&lt;/p&gt;
+&lt;h2 id=&#34;2020-07-10-fri&#34;&gt;2020-07-10 Fri.&lt;/h2&gt;
+&lt;p&gt;爆肝L1心态变化实录：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;嗯嗯我觉得我写的的蛮好……本地稍微测一下……
+&lt;ul&gt;
+&lt;li&gt;谁来告诉我OS LAB的segmentation fault要怎么搞？？？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;问题不大多加点assert和log看看……嗯嗯差不多了，再submit一下试试，easy test应该能过了。
+&lt;ul&gt;
+&lt;li&gt;？！过了三个hard test？？？ 只剩一个exit early了？？？我明明只用了一个BIG LOCK速度竟然没问题吗？？？那我岂不是今天能搞定了？？？我靠我自我膨胀了，wzjnb！！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;冷静冷静可能是巧合，再测一下……果然现在只过了一个hard test了，速度还是不够……还有这个exit early……
+&lt;ul&gt;
+&lt;li&gt;救！命！啊！！！我本地测试都有cpu reset！！！这玩意儿要怎么办啊——加了多少assert都不不知道哪里有memory corruption……去看看老师的录播……tmd调试理论我还是不会用啊！！！！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;分析一下问题暂时局限在kalloc的部分，反正要调整数据结构，要不就重写一下kalloc换成并发再试试……
+&lt;ul&gt;
+&lt;li&gt;用页锁的话……什么时候上锁啊什么时候解锁啊……BIG LOCK放在哪里啊…… add slab的时候要怎么控制data race啊……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;我。是。垃。圾。我的代码如同我的脑子一样混乱，tmd 越写越长跟一团浆糊一样……现在easy test都过不了了。
+&lt;ul&gt;
+&lt;li&gt;睡觉去睡觉去，明天重写……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       
     </item>

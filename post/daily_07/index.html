@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Daily_07 - SPARKS.</title>
+  <title>July. - SPARKS.</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -58,22 +58,22 @@
 
 
 
-<meta property="og:title" content="Daily_07" />
+<meta property="og:title" content="July." />
 <meta property="og:description" content="Take me hand." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://GlaukosW.github.io/post/daily_07/" />
-<meta property="article:published_time" content="2020-07-08T16:34:44+08:00" />
-<meta property="article:modified_time" content="2020-07-08T16:34:44+08:00" />
-<meta itemprop="name" content="Daily_07">
+<meta property="article:published_time" content="2020-07-10T16:34:44+08:00" />
+<meta property="article:modified_time" content="2020-07-10T16:34:44+08:00" />
+<meta itemprop="name" content="July.">
 <meta itemprop="description" content="Take me hand.">
-<meta itemprop="datePublished" content="2020-07-08T16:34:44&#43;08:00" />
-<meta itemprop="dateModified" content="2020-07-08T16:34:44&#43;08:00" />
-<meta itemprop="wordCount" content="628">
+<meta itemprop="datePublished" content="2020-07-10T16:34:44&#43;08:00" />
+<meta itemprop="dateModified" content="2020-07-10T16:34:44&#43;08:00" />
+<meta itemprop="wordCount" content="1183">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Daily_07"/>
+<meta name="twitter:title" content="July."/>
 <meta name="twitter:description" content="Take me hand."/>
 
 <!--[if lte IE 9]>
@@ -282,11 +282,11 @@
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">Daily_07</h1>
+      <h1 class="post-title">July.</h1>
       
       <div class="post-meta">
-        <time datetime="2020-07-08" class="post-time">
-          2020-07-08
+        <time datetime="2020-07-10" class="post-time">
+          2020-07-10
         </time>
         
         
@@ -308,6 +308,7 @@
   <ul>
     <li><a href="#2020-07-07-tue">2020-07-07 Tue.</a></li>
     <li><a href="#2020-07-08-wed">2020-07-08 Wed.</a></li>
+    <li><a href="#2020-07-10-fri">2020-07-10 Fri.</a></li>
   </ul>
 </nav>
   </div>
@@ -331,6 +332,35 @@
 <p>人在情感强烈的时候总会有创作的冲动，不论是音乐、美术，还是文学，想要把我离奇的想法记录下来，想要把我汹涌的情感保存下来，我眼中的泪水，内心的悸动，哽在喉咙的那一声呐喊，全部献给你，献给我所爱的人，献给这个世界。</p>
 <p>正好耳边响起一句：“Hold on to your heart.”</p>
 <p>（歌词来自 Of Monsters And Men 的 <em>Your Bones</em>）</p>
+<h2 id="2020-07-10-fri">2020-07-10 Fri.</h2>
+<p>爆肝L1心态变化实录：</p>
+<ul>
+<li>嗯嗯我觉得我写的的蛮好……本地稍微测一下……
+<ul>
+<li>谁来告诉我OS LAB的segmentation fault要怎么搞？？？</li>
+</ul>
+</li>
+<li>问题不大多加点assert和log看看……嗯嗯差不多了，再submit一下试试，easy test应该能过了。
+<ul>
+<li>？！过了三个hard test？？？ 只剩一个exit early了？？？我明明只用了一个BIG LOCK速度竟然没问题吗？？？那我岂不是今天能搞定了？？？我靠我自我膨胀了，wzjnb！！</li>
+</ul>
+</li>
+<li>冷静冷静可能是巧合，再测一下……果然现在只过了一个hard test了，速度还是不够……还有这个exit early……
+<ul>
+<li>救！命！啊！！！我本地测试都有cpu reset！！！这玩意儿要怎么办啊——加了多少assert都不不知道哪里有memory corruption……去看看老师的录播……tmd调试理论我还是不会用啊！！！！</li>
+</ul>
+</li>
+<li>分析一下问题暂时局限在kalloc的部分，反正要调整数据结构，要不就重写一下kalloc换成并发再试试……
+<ul>
+<li>用页锁的话……什么时候上锁啊什么时候解锁啊……BIG LOCK放在哪里啊…… add slab的时候要怎么控制data race啊……</li>
+</ul>
+</li>
+<li>我。是。垃。圾。我的代码如同我的脑子一样混乱，tmd 越写越长跟一团浆糊一样……现在easy test都过不了了。
+<ul>
+<li>睡觉去睡觉去，明天重写……</li>
+</ul>
+</li>
+</ul>
 
     </div>
 
@@ -344,7 +374,7 @@
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-      2020-07-08
+      2020-07-10
       
     </span>
   </p>
